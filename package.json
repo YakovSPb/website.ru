@@ -12,5 +12,8 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
     "node-bourbon": "^4.2.8"
+  },
+  "dependencies": {
+    "bourbon": "^4.3.4"
   }
 }
