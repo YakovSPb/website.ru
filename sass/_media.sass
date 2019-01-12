@@ -4,11 +4,17 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
-	/**/
+	.sect-header .header-title-wrap
+		padding-left: 50px
+		line-height: 37px
+		margin-top: 226px
+
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
+	.sect-header
+		background-size: cover
 	.line-menu,
 	.top-line-social
 		display: none
@@ -20,8 +26,7 @@
 		top: 10px
 	.line-menu li, .line-menu ul
 		display: block
-	.line-menu ul
-		padding-bottom: 35px
+
 	.line-menu li
 		margin: 0
 		display: block
@@ -31,15 +36,18 @@
 			display: block
 			line-height: 40px
 			border-bottom: lighten(#232f46, 10%) 1px solid
+			font-size: 18px
 	.line-menu .button
 		margin-right: 30px
 		margin-top: 30px
 	.line-menu
-		padding-bottom: 40px
+		padding-bottom: 25px
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+	.social-sprites
+		display: none
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated
@@ -69,6 +77,20 @@
 		margin-right: 13px
 	.toggle-mnu
 		right: 6px
+	.sect-header
+		min-height: 530px
+		.header-title-wrap
+			text-align: center
+			line-height: 40px
+			padding-left: 0
+			strong
+				font-size: 34px
+				padding-bottom: 9px
+			span
+				font-size: 24px
+	.sect-header .header-title-wrap
+		margin-top: 130px
+
 
 
 /* Custom, iPhone Retina */
