@@ -3,6 +3,13 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1430px)
+	.sect-portfolio
+      .owl-naw
+        display: none
+
+
+/* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
 	.sect-header .header-title-wrap
 		padding-left: 50px
@@ -50,10 +57,23 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+	.sect-portfolio
+      .hi-item
+        img
+         height: auto
+         width: 100%
+         padding: 60px
+
 	.social-sprites
 		display: none
 	.main-mnu .button
 		padding: 8px 13px
+
+
+	.owl-dots .owl-dot
+         margin: 0 11px
+
+
 	/*Disable Animation on Mobile Devices*/
 	.animated
 		/*CSS transitions*/
@@ -78,6 +98,10 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+  .sect-portfolio
+    .hi-item
+      img
+        padding: 20px
   .sect-service
    .item
      img

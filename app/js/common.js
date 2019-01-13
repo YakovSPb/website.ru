@@ -1,9 +1,31 @@
 $(function() {
 
+
+	var owl = $(".slider");
+	owl.owlCarousel({
+		loop : true,
+		items: 1,
+		itemClass: "slide-wrap",
+		nav: true
+	});
+
+	$(".next").click(function() {
+		owl.trigger('next.owl.carousel');
+	})
+	$(".prev").click(function() {
+		owl.trigger('prev.owl.carousel');
+	});
+
+	$('[data-fancybox="gallery"]').fancybox({
+		keyboard: true
+	});
+
 	$(".toggle-mnu").click(function () {
 		$(this).toggleClass("on");
 		$(".line-menu").slideToggle();
 	});
+
+
 
 	$(".sect-service .item p").equalHeights();
 
