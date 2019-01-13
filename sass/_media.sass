@@ -13,42 +13,47 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	.sect-header
-		background-size: cover
-	.line-menu,
-	.top-line-social
-		display: none
-	.main-head
-		.top-line
-			padding: 10px 0
-	.toggle-mnu
-		right: 20px
-		top: 10px
-	.line-menu li, .line-menu ul
-		display: block
+  .sect-service
+    .item
+      img
+        float: left
+        margin-right: 35px
+  .sect-header
+      background-size: cover
+  .line-menu,
+  .top-line-social
+      display: none
+  .main-head
+      .top-line
+          padding: 10px 0
+  .toggle-mnu
+      right: 20px
+      top: 10px
+  .line-menu li, .line-menu ul
+      display: block
 
-	.line-menu li
-		margin: 0
-		display: block
-		a
-			padding-right: 30px
-			padding-left: 	50px
-			display: block
-			line-height: 40px
-			border-bottom: lighten(#232f46, 10%) 1px solid
-			font-size: 18px
-	.line-menu .button
-		margin-right: 30px
-		margin-top: 30px
-	.line-menu
-		padding-bottom: 25px
-
+  .line-menu li
+      margin: 0
+      display: block
+      a
+          padding-right: 30px
+          padding-left: 	50px
+          display: block
+          line-height: 40px
+          border-bottom: lighten(#232f46, 10%) 1px solid
+          font-size: 18px
+  .line-menu .button
+      margin-right: 30px
+      margin-top: 30px
+  .line-menu
+      padding-bottom: 25px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 	.social-sprites
 		display: none
-	
+	.main-mnu .button
+		padding: 8px 13px
 	/*Disable Animation on Mobile Devices*/
 	.animated
 		/*CSS transitions*/
@@ -73,23 +78,34 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
-	.main-head .top-line-email
-		margin-right: 13px
-	.toggle-mnu
-		right: 6px
-	.sect-header
-		min-height: 530px
-		.header-title-wrap
-			text-align: center
-			line-height: 40px
-			padding-left: 0
-			strong
-				font-size: 34px
-				padding-bottom: 9px
-			span
-				font-size: 24px
-	.sect-header .header-title-wrap
-		margin-top: 130px
+  .sect-service
+   .item
+     img
+      float: none
+  .main-head .top-line-email
+      margin-right: 13px
+  .toggle-mnu
+      right: 6px
+  .sect-header
+      min-height: 530px
+      .header-title-wrap
+          text-align: center
+          line-height: 40px
+          padding-left: 0
+          strong
+              font-size: 34px
+              padding-bottom: 9px
+          span
+              font-size: 24px
+  .sect-header .header-title-wrap
+      margin-top: 130px
+  .line-menu li a
+      padding-left: 39px
+  .line-menu .button
+      margin-top: 10px
+  .line-menu
+      padding-bottom: 12px
+
 
 
 

@@ -60,7 +60,7 @@
     }
 
     b, strong {
-        font-weight: bold
+        font-weight: 700
     }
 
     dfn {
@@ -69,7 +69,7 @@
 
     h1 {
         font-size: 2em;
-        margin: 0.67em 0
+        margin: .67em 0
     }
 
     mark {
@@ -89,11 +89,11 @@
     }
 
     sup {
-        top: -0.5em
+        top: -.5em
     }
 
     sub {
-        bottom: -0.25em
+        bottom: -.25em
     }
 
     img {
@@ -179,9 +179,9 @@
     }
 
     fieldset {
-        border: 1px solid #c0c0c0;
+        border: 1px solid silver;
         margin: 0 2px;
-        padding: 0.35em 0.625em 0.75em
+        padding: .35em .625em .75em
     }
 
     legend {
@@ -194,7 +194,7 @@
     }
 
     optgroup {
-        font-weight: bold
+        font-weight: 700
     }
 
     table {
@@ -212,7 +212,7 @@
         box-sizing: border-box
     }
 
-    *:before, *:after {
+    :before, :after {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box
@@ -1253,10 +1253,6 @@
         position: fixed
     }
 
-    @-ms-viewport {
-        width: device-width
-    }
-
     .visible-xs, .visible-sm, .visible-md, .visible-lg {
         display: none !important
     }
@@ -1281,21 +1277,15 @@
         th.visible-xs, td.visible-xs {
             display: table-cell !important
         }
-    }
 
-    @media (max-width: 767px) {
         .visible-xs-block {
             display: block !important
         }
-    }
 
-    @media (max-width: 767px) {
         .visible-xs-inline {
             display: inline !important
         }
-    }
 
-    @media (max-width: 767px) {
         .visible-xs-inline-block {
             display: inline-block !important
         }
@@ -1317,21 +1307,15 @@
         th.visible-sm, td.visible-sm {
             display: table-cell !important
         }
-    }
 
-    @media (min-width: 768px) and (max-width: 991px) {
         .visible-sm-block {
             display: block !important
         }
-    }
 
-    @media (min-width: 768px) and (max-width: 991px) {
         .visible-sm-inline {
             display: inline !important
         }
-    }
 
-    @media (min-width: 768px) and (max-width: 991px) {
         .visible-sm-inline-block {
             display: inline-block !important
         }
@@ -1353,21 +1337,15 @@
         th.visible-md, td.visible-md {
             display: table-cell !important
         }
-    }
 
-    @media (min-width: 992px) and (max-width: 1199px) {
         .visible-md-block {
             display: block !important
         }
-    }
 
-    @media (min-width: 992px) and (max-width: 1199px) {
         .visible-md-inline {
             display: inline !important
         }
-    }
 
-    @media (min-width: 992px) and (max-width: 1199px) {
         .visible-md-inline-block {
             display: inline-block !important
         }
@@ -1626,26 +1604,81 @@
 
     </div>
     <div class="sect-header-wrap">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 hidden-sm hidden-xs">
+                    <div class="header-img-wrap"><img src="img/workplace.png" alt="Website"></div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="header-title-wrap">
+                        <h1>Website</h1>
+                        <strong>Design & developmemt</strong>
+                        <span>Make Product Faster</span>
+                        <a href="#" class="button button-green">Contact Us</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="sect-service">
     <div class="container">
         <div class="row">
+            <div class="col-lg-3 col-md-6 cl-info">
 
-            <div class="col-md-6 hidden-sm hidden-xs">
-               <div class="header-img-wrap"><img src="img/workplace.png" alt="Website"></div>
+                <div class="wrap">
+                    <div class="item">
+                        <img src="img/icon_1.png" alt="alt">
+                        <h4>Web design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eum, exercitationem illum
+                            maxime qui quod vel voluptas.</p>
+                    </div>
+                </div>
 
             </div>
-            <div class="col-md-6">
-                <div class="header-title-wrap">
-                    <h1>Website</h1>
-                    <strong>Design & developmemt</strong>
-                    <span>Make Product Faster</span>
-                    <a href="#" class="button button-green">Contact Us</a>
+            <div class="col-lg-3 col-md-6 cl-info">
+
+                <div class="wrap">
+                    <div class="item">
+                        <img src="img/icon_2.png" alt="alt">
+                        <h4>Web development</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Uteniad..Readmore.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 cl-info">
+
+                <div class="wrap">
+                    <div class="item">
+                        <img src="img/icon_1.png" alt="alt">
+                        <h4>Graphic design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Uteniad..Readmore.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 cl-info">
+
+                <div class="wrap">
+                    <div class="item">
+                        <img src="img/icon_1.png" alt="alt">
+                        <h4>Social follower</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Uteniad..Readmore.</p>
+                    </div>
                 </div>
 
             </div>
         </div>
     </div>
-    </div>
 </section>
+
+
 <div class="container">
     <div class="row">
         <div style="background-color: red">124</div>

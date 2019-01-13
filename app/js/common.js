@@ -5,6 +5,8 @@ $(function() {
 		$(".line-menu").slideToggle();
 	});
 
+	$(".sect-service .item p").equalHeights();
+
 
 	//SVG Fallback
 	if(!Modernizr.svg) {
