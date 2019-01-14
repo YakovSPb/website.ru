@@ -119,6 +119,51 @@ body textarea:required:valid
 
 //Custom Styles Here
 
+.sect-quote
+	background-color: #F6F6F6
+	padding-bottom: 40px
+	&-wrap
+		padding: 70px 0
+		&-item
+			text-align: justify
+			background-color: #df5240
+			padding: 20px 15px
+			color: #ffffff
+			position: relative
+			&::after
+				content: ''
+				position: absolute
+				left: 40px
+				bottom: -40px
+				border: 20px solid transparent
+				border-top: 20px solid #df5240
+				border-right: 20px solid #df5240
 
+		&-man
+			text-align: left
+			padding-left: 98px
+			b
+				text-transform: uppercase
+				font-family: "OxygenBold", sans-serif
+				display: block
+				padding-top: 16px
+			span
+				display: block
+				color: #666666
+				text-transform: uppercase
+				padding: 0
+				margin: 0
+
+.sect-quote-wrap div:nth-child(2n)
+	.sect-quote-wrap-item
+		background-color: #1679bf
+		&::after
+			content: ''
+			position: absolute
+			left: 40px
+			bottom: -40px
+			border: 20px solid transparent
+			border-top: 20px solid #1679bf
+			border-right: 20px solid #1679bf
 //ALWAYS END
 @import "media"
