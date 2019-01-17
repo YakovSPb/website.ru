@@ -220,5 +220,131 @@ body textarea:required:valid
 			font-family: "OxygenBold", sans-serif
 
 
+// FOOTER //
+.main-footer
+	height: 580px
+	background-image: url(../img/footer_bg.jpg)
+	padding-top: 30px
+	position: relative
+	&-social
+		&::after
+			content: ''
+			position: absolute
+			background-image: url(../img/dashed.png)
+			left: -50px
+			bottom: -25px
+			width: 100%
+			height: 3px
+			background-repeat: repeat-x
+		&-icon
+			display: inline-block
+			width: 70px
+			height: 70px
+			border: #34709d 3px solid
+			border-radius: 10em
+			text-align: center
+			margin-right: 50px
+			transition: all .5s ease
+			&:hover
+				border-color: #fff
+				i
+					color: #ffffff
+				span
+					color: #ffffff
+			i
+				font-size: 30px
+				line-height: 67px
+				color: #4696d3
+				transition: all .5s ease
+			span
+				font-size: 30px
+				line-height: 65px
+				font-weight: 700
+				color: #4696d3
+				transition: all .5s ease
+	.footer-s2
+		color: #ffffff
+		padding-top: 80px
+		.aboutus
+			margin-left: -35px
+			width: 300px
+	h4
+		position: relative
+		&::after
+			content: ''
+			position: absolute
+			background-image: url(../img/dashed.png)
+			left: 0
+			bottom: -5px
+			width: 130px
+			height: 3px
+			background-repeat: repeat-x
+	.latest
+		ul, li
+			list-style-type: none
+			padding: 0
+			margin: 0
+			li
+				position: relative
+				padding-left: 30px
+				margin-bottom: 25px
+				&::before
+					content: '>'
+					position: absolute
+					left: 0
+					bottom: 0
+.f-form
+	h4
+		&::after
+			width: 250px
+			display: block
+	.footer-form
+		input
+			display: block
+			margin-bottom: 15px
+			width: 250px
+			height: 40px
+			color: #4696d3
+			padding-left: 10px
+			padding-right: 10px
+			border: 0
+			border-radius: 2px
+		button
+			display: block
+			border: none
+			padding-left: 30px
+			padding-right: 30px
+			&:hover
+				background-color: lighten(#de443c, 5%)
+
+.s3-footer
+	color: #fff
+	width: 100%
+	position: relative
+	margin-top: 50px
+	p
+		padding: 0
+		margin: 0
+
+	ul
+		margin: 0
+		padding-left: 40px
+		padding-bottom: 30px
+		li
+			display: inline-block
+			margin-right: 25px
+	&::before
+		content: ''
+		position: absolute
+		background-image: url(../img/dashed.png)
+		left: 0
+		bottom: -5px
+		width: 100%
+		height: 3px
+		background-repeat: repeat-x
+		margin-top: 25px
+		margin-bottom: 25px
+
+
 //ALWAYS END
 @import "media"
