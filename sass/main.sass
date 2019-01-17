@@ -21,6 +21,9 @@
 	.hi-item
 		padding: 0 10px 20px
 		margin: 0
+		&:hover
+			transform: scale(1.1)
+			transition: all .5s ease
 		img
 			width: 270px
 			height:  185px
@@ -44,7 +47,7 @@
 .slider
 	top: 0
 	width: 100%
-	overflow-x: hidden
+	overflow: hidden
 	.slide-wrap
 		float: left
 		.slide

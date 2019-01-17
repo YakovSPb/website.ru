@@ -1,5 +1,6 @@
 $(function() {
 
+    $("h2").animated("fadeInRight");
 
 	var owl = $(".slider");
 	owl.owlCarousel({
