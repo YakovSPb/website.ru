@@ -67,6 +67,7 @@
 		position: absolute
 		left: -180px
 		bottom: -89px
+		cursor: pointer
 	.next
 		background-image: url(../img/right_hand.png)
 		background-repeat: no-repeat
@@ -75,6 +76,7 @@
 		position: absolute
 		right: -175px
 		bottom: -89px
+		cursor: pointer
 
 .owl-dots
 	position: absolute
@@ -123,13 +125,13 @@ body textarea:required:valid
 	background-color: #F6F6F6
 	padding-bottom: 40px
 	&-wrap
-		padding: 70px 0
 		&-item
 			text-align: justify
 			background-color: #df5240
 			padding: 20px 15px
 			color: #ffffff
 			position: relative
+			margin-top: 70px
 			&::after
 				content: ''
 				position: absolute
@@ -156,6 +158,7 @@ body textarea:required:valid
 
 .sect-quote-wrap div:nth-child(2n)
 	.sect-quote-wrap-item
+		margin-top: 70px
 		background-color: #1679bf
 		&::after
 			content: ''
@@ -165,5 +168,57 @@ body textarea:required:valid
 			border: 20px solid transparent
 			border-top: 20px solid #1679bf
 			border-right: 20px solid #1679bf
+
+.sect-twit
+	&::before
+		content: ''
+		background-image: url(../img/follow_bg.png)
+		background-repeat: no-repeat
+		background-position: center top
+		background-size: cover
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		opacity: .1
+	.button-red
+		margin-left: 30px
+		width: 165px
+		text-align: center
+		padding: 8px 13px
+		margin-top: 14px
+		&:hover
+			background-color: lighten(#de443c, 5%)
+		&::after
+			content: '\f054 '
+			color: #ffffff
+			width: 50px
+			height: 50px
+			font-size: 20px
+			font-family: "FontAwesome"
+			position: relative
+			top: 2px
+			left: 10px
+	background-color: #1679bf
+	height: 200px
+	position: relative
+	&-wrap
+		padding-top: 68px
+		&-bird
+			text-align: right
+			margin-top: 5px
+			i
+				font-size: 50px
+				color: #35aad8
+
+		&-text
+			font-size: 26px
+			color: #ffffff
+			line-height: 30px
+			text-align: justify
+			font-family: "OxygenBold", sans-serif
+
+
 //ALWAYS END
 @import "media"
